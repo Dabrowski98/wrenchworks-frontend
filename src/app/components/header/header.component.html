@@ -1,0 +1,12 @@
+<header>
+  <nav>
+    <div class="nav-section"></div>
+    <span routerLink="/" class="nav-title btn gradient-text">{{
+      title()
+    }}</span>
+    <div class="nav-section nav-buttons">
+      <li routerLink="/{{firstBtn().toLowerCase()}}" class="nav-button">{{ firstBtn() }}</li>
+      <li routerLink="/{{secondBtn().toLowerCase()}}" class="nav-button">{{ secondBtn() }}</li>
+    </div>
+  </nav>
+</header>
